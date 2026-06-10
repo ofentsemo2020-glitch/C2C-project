@@ -295,6 +295,9 @@ Trusted Seller ⭐
 <a href="buyProduct.php?id=<?php echo $row['id']; ?>"
 class="btn"> Buy Now </a>
 
+<a href="addtoCart.php?id=<?php echo $row['id']; ?>"
+class="btn">Add to Cart</a>
+
 </div>
 
 <?php endwhile; ?>
